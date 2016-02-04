@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27F641231C63D99C00256B8C /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F641221C63D99C00256B8C /* Brain.swift */; };
 		D4AE4D9B1C63D5E300A5D347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE4D9A1C63D5E300A5D347 /* AppDelegate.swift */; };
 		D4AE4D9D1C63D5E300A5D347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE4D9C1C63D5E300A5D347 /* ViewController.swift */; };
 		D4AE4DA01C63D5E300A5D347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE4D9E1C63D5E300A5D347 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27F641221C63D99C00256B8C /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		D4AE4D971C63D5E300A5D347 /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AE4D9A1C63D5E300A5D347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4AE4D9C1C63D5E300A5D347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				D4AE4DA11C63D5E300A5D347 /* Assets.xcassets */,
 				D4AE4DA31C63D5E300A5D347 /* LaunchScreen.storyboard */,
 				D4AE4DA61C63D5E300A5D347 /* Info.plist */,
+				27F641221C63D99C00256B8C /* Brain.swift */,
 			);
 			path = FizzBuzz;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4AE4D9D1C63D5E300A5D347 /* ViewController.swift in Sources */,
+				27F641231C63D99C00256B8C /* Brain.swift in Sources */,
 				D4AE4D9B1C63D5E300A5D347 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 				D4AE4DC11C63D5E300A5D347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4AE4DC21C63D5E300A5D347 /* Build configuration list for PBXNativeTarget "FizzBuzzTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				D4AE4DC41C63D5E300A5D347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4AE4DC51C63D5E300A5D347 /* Build configuration list for PBXNativeTarget "FizzBuzzUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				D4AE4DC71C63D5E300A5D347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
