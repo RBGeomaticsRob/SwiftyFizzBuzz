@@ -19,9 +19,11 @@ class Game: NSObject {
     }
     
     func play(move: String)-> Bool{
-        score++
-        let result = brain.check(score)
+        
+        let result = brain.check(score + 1)
+        
         if result == move {
+            score++
             return true
         } else {
             return false
